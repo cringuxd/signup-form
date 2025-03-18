@@ -1,0 +1,65 @@
+@font-face {
+    font-family: font;
+    src: url(./images/Norse-Bold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nova+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+    padding: 0;
+    margin: 0;
+ }
+
+.container {
+    display:flex;
+}
+
+.left-image {
+    background-color: red;
+    min-width:35%;
+    height: 100vh;
+}
+
+.image {
+    
+}
+
+.logo-field {
+
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: "Nova Mono", monospace;
+    font-size: 24px;
+    background-color: rgb(240, 230, 202);
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 20vh;
+}
+
+.form-content {
+    height: 40vh;
+}
+
+.footer {
+    background-color: rgb(240, 230, 202);
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 20vh;
+    padding-top: 2vh;
+    display:flex;
+    flex-direction:column;
+    gap: 1vh;
+    font-family: "Nova Mono", monospace;
+}
+
+.account-button {
+    width:200px;
+    height: 50px;
+    border-radius: 16px;
+
+}
