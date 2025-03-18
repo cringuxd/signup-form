@@ -9,8 +9,14 @@ html, body{
     margin: 0;
  }
 
+label {
+    size: 32;
+    font-family: "Nova Mono", monospace;
+    font-weight: bold;
+}
 .container {
     display:flex;
+    background-color: rgb(240, 230, 202);
 }
 
 .left-image {
@@ -40,11 +46,40 @@ html, body{
     padding-right: 10vh;
     padding-top: 20vh;
 }
-
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
 .form-content {
     height: 40vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 5vh;
+    border: 1px black solid;
+    border-radius: 48px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
+.form-block {
+    display:flex;
+    gap: 20vh;
+    justify-content: center;
+}
+.form-header {
+    font-family: "Nova Mono", monospace;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.form-input {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
 .footer {
     background-color: rgb(240, 230, 202);
     padding-left: 10vh;
