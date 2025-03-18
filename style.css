@@ -14,23 +14,67 @@ label {
     font-family: "Nova Mono", monospace;
     font-weight: bold;
 }
+
+input {
+    border: 1px #E5E7EB solid;
+    height: 30px;
+    font-family: "Nova Mono", monospace;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+input:invalid {
+    border: 3px red solid;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 3px blue solid;
+}
 .container {
     display:flex;
     background-color: rgb(240, 230, 202);
 }
 
 .left-image {
-    background-color: red;
+    background-color: rgb(240, 230, 202);
     min-width:35%;
     height: 100vh;
+    color: red;
 }
 
 .image {
-    
+    min-width:35%;
+    position: absolute;
+    height: 100vh; 
+}
+
+.odin-logo {
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    left: 20vh;
 }
 
 .logo-field {
-
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    min-width:35%;
+    height: 10vh;
+    top: 30vh;
+    font-family: font;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
 }
 
 .content {
@@ -44,7 +88,9 @@ label {
     background-color: rgb(240, 230, 202);
     padding-left: 10vh;
     padding-right: 10vh;
-    padding-top: 20vh;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    text-align: center;
 }
 .form {
     display: flex;
@@ -90,11 +136,15 @@ label {
     flex-direction:column;
     gap: 1vh;
     font-family: "Nova Mono", monospace;
+    align-items: center;
+    font-weight: bold;
 }
 
 .account-button {
     width:200px;
     height: 50px;
     border-radius: 16px;
-
+    background-color: #596D48;
+    border: 0px;
+    font-weight: bold;
 }
